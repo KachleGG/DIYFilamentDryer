@@ -23,7 +23,7 @@
  | Rotary Encoder with Push Button | 1| 62Kč |
  | Relay module         |   1    |  30 Kč  |
  | | |
- | Overall| | 545 |
+ | Overall| | 545 Kč |
 
 ## Wiring
  ### Power Supply
@@ -67,9 +67,8 @@
 #### Disclaimer
 The information provided herein is intended for educational and informational purposes 
 only, and should not be considered as professional advice. By accessing this content, you agree that you 
-are responsible for your actions and decisions, including those related to assembling a homemade drone 
+are responsible for your actions and decisions, including those related to assembling a homemade device 
 project or using the code and components suggested herein. We cannot be held liable for any damages, 
 injuries, or losses resulting from the use or misuse of this information, nor for any damage caused by 
-the assembly process, the drone's operation, or any malfunction thereof. It is your responsibility to 
-ensure that all local laws and regulations are complied with when assembling, using, or modifying a 
-drone project.
+the assembly process, the device's operation, or any malfunction thereof. It is your responsibility to 
+ensure that all local laws and regulations are complied with when assembling, using, or modifying this project.
