@@ -50,7 +50,7 @@ void loop() {
       lcd.setCursor(0, 1);
       lcd.print(dryingTime);
       lcd.print(" min");
-    } else {
+    } else if (dryerTemperature >= yourTemperature) {
       // Start drying process
       dryingTime *= 60; // Convert minutes to seconds
       unsigned long startTime = millis();
@@ -84,6 +84,9 @@ void loop() {
       lcd.print("Drying Done");
       delay(2000); // Display message for 2 seconds
       settingTemperature = true; // Reset flag to set temperature again
+    } else {
+      lcd.clear();
+      lcd.print("Heating up...");
     }
   }
 
