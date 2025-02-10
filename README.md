@@ -38,7 +38,7 @@
  ### Temperature Sensor
  - **VCC**: `5V`
  - **GND**: `GND`
- - **OUT**: `A0`
+ - **OUT**: `D6`
 
  ### Heating Elements
  - **One Terminal**: `COM (on Relay module)`
