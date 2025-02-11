@@ -25,6 +25,41 @@
  | | |
  | Overall| | 545 Kč |
 
+ # Power Consumption Estimate
+  ## 12V system Power costs
+  Here's the power consumption breakdown for your components, with the current remaining the same:
+  - **Arduino Nano**: 40 mA
+  - **LCD**: 20 mA
+  - **Temperature Sensor**: 1.5 mA
+  - **Rotary Encoder**: 10 mA
+  - **Relay Module**: 50 mA
+
+  **Total Current**: 121.5 mA
+
+  Using the formula:
+  \[ \text{Power (W)} = \text{Voltage (V)} \times \text{Current (A)} \]
+
+  \[ \text{Power} = 12V \times 0.1215A = 1.458W \]
+
+  If you run this setup for an hour, it will consume:
+  \[ \text{Energy (Wh)} = \text{Power (W)} \times \text{Time (h)} \]
+
+  \[ \text{Energy} = 1.458W \times 1h = 1.458Wh \]
+
+  For a whole day (24 hours):
+  \[ \text{Energy} = 1.458W \times 24h = 34.992Wh \]
+
+  Over a month (30 days):
+  \[ \text{Energy} = 34.992Wh \times 30 = 1,049.76Wh \]
+
+  \[ \text{Energy} = 1.04976kWh \]
+
+  If your electricity cost is €0.15 per kWh:
+  \[ \text{Cost} = 1.04976kWh \times €0.15 = €0.157 \]
+
+  So, running your setup continuously for a month would cost you approximately €0.16 if your cost is €0.15 per kWh.
+
+
 ## Wiring
  ### Power Supply
  - **Positive Terminal**: `VIN`

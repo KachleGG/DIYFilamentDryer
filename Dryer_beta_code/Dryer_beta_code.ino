@@ -2,7 +2,7 @@
 #include <OneWire.h>
 #include <DallasTemperature.h>
 
-float dryerTemperature = 0;
+float dryerTemperature = 0; // Will be pulled from the temperature sensor
 float yourTemperature = 20.0; // Initial needed temperature
 int dryingTime = 0; // Drying time in minutes
 const int heaterPin = 2; // Changed to match relay module pin D2
