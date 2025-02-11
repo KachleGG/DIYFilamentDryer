@@ -34,7 +34,9 @@ void setup() {
 
   sensors.begin();
   lcd.begin(16, 2); // Set up the LCD's number of columns and rows
-  lcd.print("KachleGGs Dryier");
+  lcd.print("   KachleGG's   ");
+  lcd.setCursor(0, 1);
+  lcd.print("Filament Dryier");
 }
 
 void loop() {
